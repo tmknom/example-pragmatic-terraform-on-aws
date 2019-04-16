@@ -25,8 +25,9 @@ Terraformに不慣れな人には、v0.11のほうがオススメです。
 また、AWSプロバイダは自力でダウンロードする必要があります。
 
 詳細は公式の[Announcing Terraform 0.12 Beta 1](https://www.hashicorp.com/blog/announcing-terraform-0-1-2-beta1)
-を読んでいただきたいですが、[development snapshots ](http://terraform-0.12.0-dev-snapshots.s3-website-us-west-2.amazonaws.com/)から
-ダウンロードしたファイルを `~/.terraform.d/plugins` に配置する必要があります。
+を読んでいただきたいですが、macOSの場合は
+[terraform-provider-aws_1.60.0-dev20190216H00-dev_darwin_amd64.zip](http://terraform-0.12.0-dev-snapshots.s3-website-us-west-2.amazonaws.com/terraform-provider-aws/1.60.0-dev20190216H00-dev/)
+というファイルをダウンロードして、zipを解凍して、 `~/.terraform.d/plugins` に配置する必要があります。
 
 ## License
 
